@@ -1,0 +1,133 @@
+.checkout-btn {
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  outline: none;
+}
+
+.popup-content {
+  background: #ffffff;
+  width: 90% !important;
+  max-width: 450px !important;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.payment-modal-container {
+  font-family: 'Roboto';
+  color: #171f46;
+}
+
+.payment-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.payment-sub-title {
+  font-size: 14px;
+  font-weight: 500;
+  color: #64748b;
+  margin-bottom: 12px;
+}
+
+.payment-options-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 0 16px 0;
+}
+
+.payment-option-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.payment-option-item input {
+  cursor: pointer;
+}
+
+.payment-option-item label {
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.label-active {
+  color: #1e293b;
+  cursor: pointer;
+}
+
+.label-disabled {
+  color: #94a3b8;
+  cursor: not-allowed;
+}
+
+.order-summary-box {
+  background-color: #f1f5f9;
+  border-radius: 6px;
+  padding: 12px 16px;
+  margin-bottom: 16px;
+}
+
+.summary-heading {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0 0 6px 0;
+}
+
+.summary-item {
+  font-size: 14px;
+  color: #64748b;
+  margin: 4px 0;
+}
+
+.summary-value {
+  color: #0b69ff;
+  font-weight: 600;
+}
+
+.confirm-order-btn {
+  width: 100%;
+  background-color: #0b69ff;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.confirm-order-btn:disabled {
+  background-color: #cbd5e1;
+  cursor: not-allowed;
+}
+
+.payment-success-view {
+  text-align: center;
+  padding: 24px 8px;
+}
+
+.success-message {
+  font-size: 18px;
+  font-weight: 600;
+  color: #16a34a;
+  margin-bottom: 16px;
+}
+
+.close-popup-btn {
+  background-color: #64748b;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
